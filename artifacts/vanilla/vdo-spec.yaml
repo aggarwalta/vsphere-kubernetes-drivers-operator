@@ -657,7 +657,7 @@ spec:
             configMapKeyRef:
               key: auto-upgrade
               name: compat-matrix-config
-        image: projects.registry.vmware.com/vsphere_kubernetes_driver_operator/vdo:v0.1.0-beta
+        image: vmware.com/vdo:b8fe42a
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
